@@ -26,7 +26,9 @@ import os
 
 # Revision 1: tightened to first-person diner voice ("me" not "us") and
 # dropped filler "sharp" — reads more like a real review, easier to retype.
-LINE = "Waiter seated me at 9am, served cold leftovers from Friday, then billed me for five more days. Never again."
+# Revision 2: sharpened dish + bill wording ("Friday's cold leftovers",
+# "charged me") and cut two words — punchier, more quotable, still Monday-only.
+LINE = "Waiter seated me at 9am, served Friday's cold leftovers, then charged me for five more days. Never again."
 
 def main():
     os.makedirs("/output", exist_ok=True)
